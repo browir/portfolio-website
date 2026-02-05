@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammad Wira Margono</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Wira Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-header">
+        <h1 class="display-4 fw-bold animate__animated animate__fadeIn">Muhammad Wira Margono</h1>
+        <p class="lead">Full Stack Developer & Educator</p>
+    </header>
+
+    <div id="project" class="container container-section my-5">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold section-title">My Projects</h2>
+            <p id="dynamic-subtitle" class="text-muted mt-2">Displaying my website projects</p>
+        </div>
+        <div class="row" id="project-container"></div>
+    </div>
+
+    <section id="about" class="bg-light py-5 text-center">
+        <div class="container">
+            <h3 class="fw-bold mb-3">About This Portfolio</h3>
+            <p class="mt-3 text-muted mx-auto" style="max-width: 600px;">
+                Built using HTML, CSS, Bootstrap, and JavaScript. 
+                <br>
+                Showcases my web development projects with a responsive and interactive design.
+            </p>
+            <button class="btn btn-primary mt-3" onclick="showGreetings()">Click this!!!</button>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">
+                Made with <span style="color: #ef3f3f;">🤍</span> by 
+                <strong>Muhammad Wira Margono</strong> 
+                | © 2026 All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

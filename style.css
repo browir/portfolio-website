@@ -1,0 +1,41 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.hero-header {
+    background-color: #003366; 
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+
+section, .container-section {
+    scroll-margin-top: 70px; 
+}
+
+
+.card { 
+    transition: transform 0.3s; 
+    border: none; 
+}
+
+.card:hover { 
+    transform: translateY(-10px); 
+} 
+
+
+.section-title { 
+    border-bottom: 3px solid #003366; 
+    display: inline-block; 
+    padding-bottom: 5px; 
+}
+
+
+footer {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 30px 0;
+}
