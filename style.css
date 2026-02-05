@@ -11,6 +11,11 @@ html {
     text-align: center;
 }
 
+<style>
+    .justify-profile {
+        text-align: justify;
+    }
+</style>
 
 section, .container-section {
     scroll-margin-top: 70px; 
